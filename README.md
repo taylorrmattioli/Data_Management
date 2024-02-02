@@ -6,7 +6,10 @@ A repository for practicing data management
   * sleepin'
   * eating'
   * walkin'
-  *  walkin' outside
-  *   drinkin'
-  *   Movies
+  * walkin' outside
+  * drinkin'
+  * Movies
 Let's see where the day takes us!
+
+I really love my Data Management class!
+Can't believe I dropped out the first time!

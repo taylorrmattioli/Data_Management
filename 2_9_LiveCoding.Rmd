@@ -1,0 +1,39 @@
+---
+title: "Feb_9_Live_Coding"
+author: "Taylor Reid Mattioli"
+date: "2/9/2024"
+output: pdf_document
+---
+
+```{r}
+options(repos = "https://mirrors.nics.utk.edu/cran/")
+contrib.url("https://mirrors.nics.utk.edu/cran/")
+pacman::p_load("skimr","tidyr","tidyverse")
+```
+
+```{r}
+coronavirus<-read.csv("https://raw.githubusercontent.com/RamiKrispin/coronavirus/master/csv/coronavirus.csv")
+skim(coronavirus)
+```
+
+```{r}
+library(tidyverse)
+view(mpg)
+mpg<-mpg
+```
+
+```{r}
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy)) 
+```
+```{r}
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = cyl), color="violetred1") 
+
+
+```
+```{r}
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, color = class, size = cyl)) 
+
+```
